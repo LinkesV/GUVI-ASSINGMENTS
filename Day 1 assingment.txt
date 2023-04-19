@@ -1,0 +1,36 @@
+1) Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP/1.1 was first introduced in 1997.HTTP/2 was introduced in 2015.
+
+One of the key differences between the abovementioned protocols is that HTTP/2 is more effcient and quicker than HTTP/1.
+Prioritization in terms of webpage development refers to order in which the elements of a website are loaded.
+HTTP/2 gives developers greater control over Prioritization as compared to HTTP/1. HTTP/2 allows developers to decide which
+resource will load first which is not possible in HTTP/1. This in known as multiplexing. HTTP/2 allows devlopers to send 
+multiple sets of data at once as opposed to sending data one at a time in HTTP1. Due the control over prioritization 
+given by HTTP2, developers are able assign different weighted values to each set of data which will indicate which 
+data to load first. Moreover, in the case of HTTP1. if one of the data streams cannot be loaded, all other data sent after
+it will also not be loaded. This is not the case in HTTP2 as it sends multiple streams of data, there is no blockage of data in a 
+process known as multiplexing.
+
+A server only sends content to the client when they request for it which is not practical in the mordern context and is 
+inefficient. However, in HTTP2 there exists a process known as server push which provided a solution to this problem. In this process even before the client makes requests,
+the server will anticipate the data required and will push it to the client.
+
+ Both HTTP/1.1 and HTTP/2 compress HTTP messages in order to speed up web performance. However, since HTTP2 uses a 
+ better compression method know as HPACK as compared to HTTP1, HTTP2 is able to further reduce the size of HTTP packets resulting 
+ in a faster loading time. 
+
+
+2)Write a blog about objects and its internal representation in Javascript
+
+Object is the most important data-type in Javascript. Objects in javascript are in the form of a key:value pair.
+A JavaScript object has properties associated with it and the property of an object is the variable given to the object.
+An example of an Object is as follows:
+
+var myPhone = new Object();
+myPhone.brand = 'Apple';
+myPhone.model = 'Iphone 5';
+myPhone.year = 2012;
+
+We can use the keys to access their respective values and vice versa.
+
