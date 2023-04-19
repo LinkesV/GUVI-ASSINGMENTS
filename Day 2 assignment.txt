@@ -1,0 +1,10 @@
+1) Write a blog on the Difference between document and window objects 
+
+The browser will create a Document Object Model whenever a web page is loaded. The document object represents the whole html document as a tree of Objects (inclusive of all its tags). Through the usage of the document object (i.e document.getElementbyID)
+Javascript is able to change HTML elements and CSS styling.
+
+The Browser Object Model contains objects that represent the current browser window or tab. The root Object in the BOM is the window object. Each and every global JavaScript objects, functions, 
+and variables will automatically become members of the window object.
+
+The window object represents a window/tab containing a DOM document. However, document object is property of window object that points to the DOM document loaded in that window
+
